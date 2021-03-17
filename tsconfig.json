@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "build",
+    "baseUrl": "src",
+    "rootDir": "src",
+    "lib": ["es2019"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2018",
+    "types": ["node", "jest"]
+  },
+  "include": ["src"]
+}

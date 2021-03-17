@@ -1,0 +1,27 @@
+{
+  "name": "dimensions",
+  "version": "1.0.0",
+  "exports": {
+    "./": "./"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "t": "jest",
+    "tc": "jest --clearCache",
+    "tw": "jest --watch"
+  },
+  "dependencies": {
+    "immutable": "^4.0.0-rc.12",
+    "lodash": "^4.17.15",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.21",
+    "@types/moment": "^2.13.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4",
+    "typescript": "^4.2.3"
+  }
+}
